@@ -8,16 +8,15 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<!-- Red Hat Decision Manager 7.5 -->
-		<!--  <brms-version>7.5.1.redhat-00001</brms-version> -->
-		<brms-version>7.3.1.GA-redhat-00002</brms-version>
+		<!-- Red Hat Decision Manager 7.x -->
+		<brms-version>7.2.1.GA-redhat-00002</brms-version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>com.redhat.ba</groupId>
-				<artifactId>ba-bom</artifactId>
+				<artifactId>ba-platform-bom</artifactId>
 				<version>${brms-version}</version>
 				<scope>import</scope>
 				<type>pom</type>
@@ -70,6 +69,14 @@
 	      <groupId>org.drools</groupId>
 	      <artifactId>drools-decisiontables</artifactId>
 	    </dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
 	</dependencies>
 	
 </project>
