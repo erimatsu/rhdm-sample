@@ -18,11 +18,11 @@ public class DecisionTableTest {
 
             // go !
         	過去利用状況 fact1 = new 過去利用状況();
-        	fact1.setユーザID("A001");
+        	fact1.setユーザーID("A001");
         	fact1.set過去利用回数(6);
         	fact1.set過去利用額計(5000);
         	今回利用 fact2 = new 今回利用();
-        	fact2.setユーザID("A001");
+        	fact2.setユーザーID("A001");
 
         	kSession.insert(fact1);
         	kSession.insert(fact2);

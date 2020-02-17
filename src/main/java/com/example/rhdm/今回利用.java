@@ -2,16 +2,16 @@ package com.example.rhdm;
 
 public class 今回利用 {
 
-	private String ユーザID;
+	private String ユーザーID;
 	private int 利用額;
 	private String 割引ランク;
 	private int 割引率;
 	
-	public String getユーザID() {
-		return ユーザID;
+	public String getユーザーID() {
+		return ユーザーID;
 	}
-	public void setユーザID(String ユーザid) {
-		ユーザID = ユーザid;
+	public void setユーザーID(String ユーザーid) {
+		ユーザーID = ユーザーid;
 	}
 	public int get利用額() {
 		return 利用額;

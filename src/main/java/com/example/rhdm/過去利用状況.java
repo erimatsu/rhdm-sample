@@ -2,14 +2,14 @@ package com.example.rhdm;
 
 public class 過去利用状況 {
 
-	private String ユーザID;
+	private String ユーザーID;
 	private int 過去利用回数;
 	private int 過去利用額計;
-	public String getユーザID() {
-		return ユーザID;
+	public String getユーザーID() {
+		return ユーザーID;
 	}
-	public void setユーザID(String ユーザid) {
-		ユーザID = ユーザid;
+	public void setユーザーID(String ユーザーid) {
+		ユーザーID = ユーザーid;
 	}
 	public int get過去利用回数() {
 		return 過去利用回数;
